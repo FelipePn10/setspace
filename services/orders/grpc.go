@@ -1,9 +1,10 @@
 package orders
 
 import (
-	"google.golang.org/grpc"
 	"log"
 	"net"
+
+	"google.golang.org/grpc"
 )
 
 type gRPCServer struct {
