@@ -3,7 +3,8 @@ syntax = "proto3";
 option go_package = "github.com/FelipePn10/common/orders";
 
 service OrderService {
-  rpc CreateOrder(CreateOrderRequest) returns (CreateOrderResponse) {}
+  rpc CreateOrder(CreateOrderRequest) returns
+      (CreateOrderResponse) {}
 }
 
 // Isto que será mostrado na tela da cozinha
